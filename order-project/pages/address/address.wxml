@@ -1,0 +1,17 @@
+<!--pages/address/address.wxml-->
+<view class="menu-item">
+        <view class="ord">
+                <view class="ordtext">{{addName}}</view>
+                <view class="ordtext">手机号码： {{addTel}}</view> 
+                <view class="ordtext">收货地址： {{addAddress}}</view>
+        </view>           
+</view>
+
+
+
+<view class = "add" bindtap = "changeAddre">
+	<image  class = "left" src = "../../images/modify.png"
+    mode = "widthFix" /><view class = "text">修改收货地址</view>
+    <image class="right" src = "../../images/right.png"
+    mode = "widthFix" />
+</view>

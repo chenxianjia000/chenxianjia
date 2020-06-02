@@ -1,0 +1,13 @@
+/* pages/newAddress/newAddress.wxss */
+.input{
+  display: inline-block;
+  height: 70rpx;
+  text-indent: 15px;
+  padding: 20rpx 10rpx;
+  border-bottom: solid 1px #eee;
+  width: 100%;
+}
+.add-btn{
+  margin-top: 30rpx;
+  width: 80%;
+}

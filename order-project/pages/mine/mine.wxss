@@ -1,0 +1,14 @@
+/* pages/mine/mine.wxss */
+.top{
+  display: flex;
+}
+.userinfo-avatar{
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  margin: 2% 2%;
+}
+.userinfo-name{
+  margin: 4% 2%;
+  font-weight: 600;
+}

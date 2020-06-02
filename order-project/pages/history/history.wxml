@@ -1,0 +1,26 @@
+<!--pages/history/history.wxml-->
+<scroll-view scroll-top="1000" scroll-y="true">
+  <view class="container">
+    <view class="cu-timeline" wx:for="{{history}}" wx:key="index">
+      <view class="cu-time">{{item.date}}</view>
+      
+        <view class="bg-blue shadow-blur" >
+          <view class="cu-list" wx:for="{{item.menu}}" wx:key="index">
+            <view class="cu-item">
+
+             <image class="cu-avatar" src="{{item.image}}"></image>
+              <view class="content">
+                <view class="text-title">{{item.title}}</view>
+              </view>
+              <view class="action">
+                <view class="cu-price">单价:  ￥{{item.price}}</view>
+                <view class="cu-num">数量:  {{item.num}}</view>
+              </view>
+              
+            </view>
+          </view>
+        </view>
+      
+    </view>
+  </view>
+</scroll-view>

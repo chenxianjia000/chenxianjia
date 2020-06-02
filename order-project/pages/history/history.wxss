@@ -1,0 +1,45 @@
+
+.container{
+  border: solid 1rpx #eee;
+  padding: 5px 0;
+}
+.cu-avatar{
+  width: 54px;
+  height: 54px;
+  margin-top: 10px;
+  border: solid #eee 2rpx;
+}
+.cu-time{
+  font-size: 16px;
+  margin:10px 5px 0 0;
+  color: #8F908C;
+}
+.action{
+  position: absolute;
+  right: -30px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.cu-item{
+  position: relative;
+  left: 10px;
+  margin-top: 1px; 
+  width: 550rpx; 
+}
+.cu-list{
+    border: solid #fff 1px;
+}
+.shadow-blur{
+  position: relative;
+  left: 20px;
+  width: 600px;
+  background-color: #BEE7E9;
+}
+.text-title{
+  position: absolute;
+  left: 60px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}

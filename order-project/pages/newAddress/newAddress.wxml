@@ -1,0 +1,18 @@
+<!--pages/newAddress/newAddress.wxml-->
+<view class="add-page">
+  <view class="inputBox">
+     <!-- <text>姓名</text> -->
+     <input class= "input" type="text" bindinput="bindName" value="{{inputName}}" placeholder="请输入收货人姓名" />
+  </view>
+  <view class="inputBox">
+    <!-- <text>手机号码</text> -->
+    <input class= "input" type="number" bindinput="bindTel" value="{{inputTel}}" placeholder="请输入收货人手机号码" />   
+  </view>
+    
+  <view class="inputBox">
+     <!-- <text>收货地址</text> -->
+    <input class= "input" type="text" bindinput="bindAddress" value="{{inputAddre}}" placeholder="请输入收货地址"  /> 
+  </view>
+    <button type="warn" class="add-btn" bindtap="addbtn" >修改</button>
+</view>
+
